@@ -61,7 +61,7 @@ class PostBottomBar extends StatelessWidget {
                             child: ClipRRect(
                           borderRadius: BorderRadius.circular(15),
                           child: Image.asset(
-                            'android/assets/images/City7.jpg',
+                            'android/assets/images/City4.jpg',
                             fit: BoxFit.cover,
                             width: 120,
                             height: 90,
@@ -73,7 +73,7 @@ class PostBottomBar extends StatelessWidget {
                             child: ClipRRect(
                           borderRadius: BorderRadius.circular(15),
                           child: Image.asset(
-                            'android/assets/images/bg.jpg',
+                            'android/assets/images/City7.jpg',
                             fit: BoxFit.cover,
                             width: 120,
                             height: 90,
@@ -89,13 +89,13 @@ class PostBottomBar extends StatelessWidget {
                           color: Colors.black,
                           borderRadius: BorderRadius.circular(15),
                           image: DecorationImage(
-                            image: AssetImage('android/assets/images/City5.jpg'),
+                            image: AssetImage('android/assets/images/City6.jpg'),
                             fit: BoxFit.cover,
                             opacity: 0.4,
                           ),
                         ),
                         child: Text(
-                          '5+',
+                          '10+',
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 22,
@@ -128,7 +128,7 @@ class PostBottomBar extends StatelessWidget {
                       ),
                       Container(
                         padding:
-                            EdgeInsets.symmetric(vertical: 15, horizontal: 25),
+                            EdgeInsets.symmetric(vertical: 12.5, horizontal: 12.5),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           color: Colors.red,

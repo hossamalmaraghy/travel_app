@@ -24,29 +24,16 @@ class HomeAppBar extends StatelessWidget {
                       blurRadius: 6,
                     ),
                   ],
-                  borderRadius: BorderRadius.circular(15), // Move this line here
+                  borderRadius:
+                      BorderRadius.circular(15), // Move this line here
                 ),
                 child: Icon(
-                  Icons.sort_rounded,
+                  Icons.arrow_back,
                   size: 28,
                 ),
               ),
             ),
-             Row(
-              children: [
-                Icon(
-                  Icons.location_on,
-                  color: Color(0xFFF65959),
-                ),
-                Text(
-                  'Al-Riyadh, SA',
-                  style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-              ],
-            ),
+
             InkWell(
               onTap: () {},
               child: Container(
@@ -62,8 +49,9 @@ class HomeAppBar extends StatelessWidget {
                   borderRadius: BorderRadius.circular(15),
                 ),
                 child: Icon(
-                  Icons.search,
-                  size: 28,
+                  Icons.favorite,
+                  size: 25,
+                  color: Color(0xFFF65959),
                 ),
               ),
             ),

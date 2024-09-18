@@ -8,13 +8,13 @@ class PostScreen extends StatelessWidget{
     return Container(
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/images/City7.jpg'),
+          image: AssetImage('android/assets/images/City8.png'),
           fit: BoxFit.cover,
           opacity: 0.7,
         ),
       ),
       child: Scaffold(
-        backgroundColor: Colors.white54,
+        backgroundColor: Colors.transparent,
         appBar: PreferredSize(
           preferredSize: Size.fromHeight(90),
           child: HomeAppBar(),
