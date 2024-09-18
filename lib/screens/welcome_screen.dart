@@ -12,7 +12,7 @@ class WelcomeScreen extends StatelessWidget {
             .expand(), // Set container constraints to expand
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images/City7.jpg'),
+            image: AssetImage('android/assets/images/bg.jpg'),
             fit: BoxFit.cover, // Set fit to BoxFit.cover
           ),
         ),
